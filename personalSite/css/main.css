@@ -1,0 +1,28 @@
+body{
+    margin-left: 600px;
+}
+
+header{
+    background-color: rgb(152, 174, 152);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 450px;
+    height: 150px;
+    
+} 
+
+header img{
+    padding: 20px;
+}
+h1{
+    padding: 20px;
+}
+
+footer{
+    background-color: rgb(152, 174, 152);
+    width: 450px;
+    height: 80px;
+    text-align: center;
+ 
+
+}
