@@ -1,0 +1,62 @@
+/* Get Google Fonts Added */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Patrick+Hand&family=Sofia+Sans:wght@300&display=swap'); 
+
+/* font-family: 'Patrick Hand', cursive;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Sofia Sans', sans-serif; */
+
+
+body{
+    width: 100%;
+    margin: 0px 0px;
+    background-color: rgb(232, 229, 229);
+}
+
+header,footer{
+    background-color: rgb(13, 13, 98);
+    color: azure;
+    width: 100%;
+    text-align: center;
+    padding:10px 10px ;
+    margin: 0px 0px;
+    font-family: 'Sofia Sans', sans-serif;
+    
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+h3{
+    background-color: rgb(56, 92, 159);
+    color: azure;
+    font-family: 'Sofia Sans', sans-serif;
+    
+}
+
+#data-section{
+    background-color: rgb(157, 169, 169);
+    border: solid black 1px;
+    border-radius: 10px;
+    margin: 10px;
+    display: grid;
+    grid-template-rows: min-content auto;
+}
+
+#data-section img{
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+#data-section p{
+    font-family: 'Sofia Sans', sans-serif;
+    padding-left: 13px;
+    padding-right: 13px;
+
+}
+
+
+
+
