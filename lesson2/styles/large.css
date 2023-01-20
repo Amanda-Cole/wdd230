@@ -12,7 +12,7 @@ body{
     background-color: rgb(232, 229, 229);
 }
 
-header,footer{
+header,footer {
     background-color: rgb(13, 13, 98);
     color: azure;
     width: 100%;
@@ -36,6 +36,18 @@ h3{
     
 }
 
+h4{
+    padding-left: 20px;
+}
+
+a{
+    padding-left: 20px;
+    color: black;
+}
+footer a{
+    color: azure;
+}
+
 #data-section1,#data-section2,#data-section3{
     background-color: rgb(157, 169, 169);
     border: solid black 1px;
@@ -43,6 +55,7 @@ h3{
     margin: 10px;
     display: grid;
     grid-template-rows: min-content auto;
+ 
    
 }
 
