@@ -1,4 +1,4 @@
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 600px){
     .navigation {
         list-style: none;
         display: block;
@@ -6,4 +6,8 @@
         background-color: #F04800;
         text-align: center;
     }
+ 
+
+
+
 }
