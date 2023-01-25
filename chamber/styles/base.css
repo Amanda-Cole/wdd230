@@ -1,0 +1,88 @@
+/* *{
+    text-align: center;
+} */
+
+header {
+    display: grid;
+    background-color: cadetblue;
+}
+nav button {
+    margin: .2rem 2vw;
+    border: none;
+    background: transparent;
+    font-size: 2rem;
+    color: #555;
+}
+nav{
+    background-color: #eee;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #333;
+    border-top: 1px solid rgba(0,0,0,0.5);
+}
+nav ul li.active a{
+    background-color: orange;
+    color: #fff;
+}
+nav ul li a:hover {
+    background-color:rgba(0, 0, 0, .3) ;
+}
+
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2)  {display:none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2)  {display:block;}
+
+main{
+    display: block;
+    background-color: #eee;
+    
+}
+.herocontainer {
+    height: 200px;
+    border-top: solid white 10px;
+    border-bottom: solid white 5px;
+}
+.eventcontainer {
+    height: 200px;
+    border-top: solid white 5px;
+    border-bottom: solid white 5px;
+}
+.weather {
+    height: 200px;
+    border-top: solid white 5px;
+    border-bottom: solid white 5px;
+}
+.newsrelease {
+    height: 200px;
+    border-top: solid white 5px;
+    border-bottom: solid white 5px;
+}
+.spotlight {
+    display: block;
+    height: 200px;
+    border-top: solid white 5px;
+    border-bottom: solid white 5px;
+}
+.join {
+    height: 200px;
+    border-top: solid white 10px;
+    border-bottom: solid white 10px;
+}
+
+a#spotlight1 {
+    /* border: solid 10px black; */
+    color: red;
+}
