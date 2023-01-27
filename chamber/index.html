@@ -18,59 +18,67 @@
 </head>
 <body>
     <header>
-        <img src="images/SmallOptimized-SCCClogo.png" alt="SCCC Logo">
-        <h1>Sandy City Chamber of Commerce</h1>
-        <div class = "socialmedia">
-            <img src="images/facebook.png" alt="Facebook Logo">
-            <img src="images/instagram.png" alt="LinkedIn Logo">
-        </div>
-        <nav>
+        <div id = "topheader">
+            <div id = logo>
+                <img src="images/50x50logoNoBlack.png" alt="SCCC Logo">
+            </div>
+            <section class = "headings">
+                <h1>Sandy City</h1>
+                <div class = "m">Chamber of Commerce</div>
+            </section>
+            <div class = "socialmedia">
+                <img src="images/tinyfacebook.png" alt="Facebook Logo">
+                <img src="images/instagram.png" alt="LinkedIn Logo">
+            </div>
+            <nav>
 
-            <!-- add class active on other sheets for menu responsiveness CSS to work -->
-<button id = "hamburgerBtn"><span>&#9776;</span><span>X</span></button> 
-            <ul id = "primaryNav">
-                <li><a href = "discover.html">Discover</a></li>  
-                <li><a href = "directory.html">Directory</a></li>
-                <li><a href = "join.html">Join</a></li>
-                <li><a href = "contact.html">Contact</a></li>
-            </ul>
-            <div clss = "date"></div>
-            <aside></aside>
-    
-        </nav>
+                <!-- add class active on other sheets for menu responsiveness CSS to work -->
+                <button id = "hamburgerBtn"><span>&#9776;</span><span>X</span></button> 
+                <ul id = "primaryNav">
+                    <li><a href = "discover.html">Discover</a></li>  
+                    <li><a href = "directory.html">Directory</a></li>
+                    <li><a href = "join.html">Join</a></li>
+                    <li><a href = "contact.html">Contact</a></li>
+                </ul>
+        
+            </nav>
+        </div>
+        <div id = "date">
+
+        </div>
 
 
     </header>
     <main>
-        <div class = "herocontainer">
+        <div class = "card" id = "herocontainer">
             <p>Hero with site name and call to action</p>
         </div>
 
-        <div class = "eventcontainer">
+        <div class = "card" id = "eventcontainer">
             <p>Event</p>
         </div >
 
-        <div class = "weather">
+        <div class = "card" id = "weather">
             <p>Weather</p>
         </div>
 
-        <div class = "newsrelease">
+        <div class = "card" id = "newsrelease">
             <p>News Release</p>
         </div>
 
-        <div class = "spotlight">
-            <a id = "spotlight1">
+        <div class = "card" id = "spotlight">
+            <div id = "spotlight1">
                 <p>Spotlight 1</p>
-            </a>
-            <a id = "spotlight2">
+            </div>
+            <div id = "spotlight2">
                 <p>Spotlight 2</p>
-            </a>
-            <a id = "spotlight3">
+            </div>
+            <div id = "spotlight3">
                 <p>Spotlight 3</p>
-            </a>
+            </div>
         </div>
 
-        <div class = "join">
+        <div class = "card" id = "join">
             <p>Join</p>
             
         </div>
@@ -78,14 +86,30 @@
     </main>
     <footer>
         <div class = "base">
-            <img src="images/SmallOptimized-SCCClogo.png" alt="SCCC Logo">
-            <p>Sandy City Chamber of Commerce</p>
-            <p>1050 Main Street</p>
-            <p>Sandy, UT 84093</p>
-            <p>(801) 599-1876</p>
-            <img src="images/googlepin.jpg"><a href="https://www.google.com/maps/@40.6008642,-111.8346546,14z"> Locate us</a>
+            <img src="images/50x50logoNoBlack.png" alt="SCCC Logo">
+            <div id = "footerName">
+                <h2>Sandy City</h2>
+                <p>Chamber of Commerce</p>
+            </div>
+            <div id = "address">
+                <p>1050 Main Street</p>
+                <p>Sandy, UT 84093</p>
+            </div>    
+            <div id = "emailphone">
+                <p>info@sandycitychamber.org</p>
+                <p>(801) 599-1876</p>
+            </div>
+            <div id = "location">
+                <img src="images/googlepin.jpg" alt="google pin"> <a href="https://www.google.com/maps/@40.6008642,-111.8346546,14z"> Locate us</a>
+        
+            </div>   
         </div>    
-        <p>&copy;<span id = "copyyear"></span> || Amanda Cole </p>   
+        <div id = "footerinfo" >
+            <p>&copy;<span id = "copyyear"></span> Sandy City Chamber</p>  
+            <h3>Amanda Cole</h3> 
+            <p>WDD 230 Project</p>
+            <p>Last Modification: <span id = "modified_date"></span></p>
+        </div>
     </footer>
 
 <script src="scripts/main.js"></script>

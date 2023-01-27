@@ -14,7 +14,7 @@ x.onclick = toggleMenu;
 // const now = new Date();
 
 // const datefield = document.querySelector(".date");
-const datefieldUK = document.querySelector("aside"); // for european/family history format with day first.
+const datefieldUK = document.querySelector("#date"); // for european/family history format with day first.
 
 // derive the current date using a date object
 const now = new Date();
@@ -32,7 +32,9 @@ datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 
 
 // ADD YEAR FOOTER
-const year = document.querySelector("#copyyear");
-year.innerHTML= 'test'; {new Date().toLocaleDateString("en-UK,options")};
+
+document.getElementById("copyyear").innerHTML = new Date().getFullYear();
 
 // MODIFIED DATE FOOTER
+var date = document.lastModified;
+document.getElementById("modified_date").innerHTML = date;
