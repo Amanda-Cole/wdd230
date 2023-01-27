@@ -23,7 +23,7 @@
     #date{
         display: block;
         text-align: center;
-        background-color: darkgray;
+        /* background-color: darkgray; */
     }
     .headings {
        display: flex;
@@ -63,7 +63,7 @@
     .card{
         /* height: 200px; */
         border-top: solid 10px  white;
-        background-color: rgb(169, 165, 165);
+        /* background-color: rgb(169, 165, 165); */
     }
     #herocontainer{
         grid-row: 1/3;
@@ -156,7 +156,17 @@
         font-size: medium;
         margin: 0px;
     }
-  
-
+    #emailphone p{
+        font-size: medium;
+        margin: 0px;
+    }
+    #location a{
+        color: #C3B7AC;
+        font-size: medium;
+    }
+    #location img{
+        height: 20px;
+    
+    }
 
 }    /*end large
