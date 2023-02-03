@@ -7,13 +7,14 @@ function toggleMenu () {
 const x = document. getElementById('hamburgerBtn')
 x.onclick = toggleMenu;
 
+document.querySelector(".banner_close").addEventListener("click",function(){
+    this.closest(".banner").style.display = "none";
+})
+
+
 // HEADER DATE
 
-// const datefield = document.querySelector(".date");
 
-// const now = new Date();
-
-// const datefield = document.querySelector(".date");
 const datefieldUK = document.querySelector("#date"); // for european/family history format with day first.
 
 // derive the current date using a date object
@@ -28,6 +29,13 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 
 // datefield.innerHTML = `<em>${fulldate}</em>`;
 datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
+
+let weekDay = now.getDay();
+
+if (weekDay !=0 && weekDay <=2){
+    document.getElementById("meetandgreet").style.display = "block";
+}
+
 
 
 

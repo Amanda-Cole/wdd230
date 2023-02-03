@@ -1,108 +1,286 @@
-/* 35rem is also 560 px when basefont is 16px */
-@media only screen and (min-width:560px){
+/* cell phone size under 560px */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400&family=PT+Sans&family=Sofia+Sans&display=swap');
 
-    .socialmedia{
-        height:  30px;
-    }
-
-    #join {
-        display:block;
-        padding-left: 10px;
-        margin-bottom: 10px;
-        border-top: 0px;
-    }
-    #join p{
-        margin-top: 0px;
-        padding-top: 16px;
-    }
-    #spotlight{
-        display: flex;
-        /* height: 225px; */
-        /* justify-content: center;
-        padding: 10px;
-        margin-bottom: 10px; */
-    }
-    #spotlight1{
-        float: left;
-        height: 100%;
-        width: 50%;
-        /* padding: 10px; */
-        border: solid 1px black;
-    }
-    #spotlight2{
-        float: right;
-        height: 100%;
-        width: 50%;
-        padding: 10px;
-        border: solid 1px black;
-        margin-top: 0;
-    }
-    #spotlight3{
-        display: none;
-    }    
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #C3B7AC  ;
+    --secondary-color:#24424B ;
+    --accent1-color: #1D191A;
+    --accent2-color: #d84000;
+    --accent3-color:#c08b00;
+    --accent4-color:#4A3830;
+    --accent5-color:#47B6C2;
     
-    .base{
-        display: flex;
-        text-align: center;
-        align-items: center;
-        justify-content: space-between;
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: 'Inter', sans-serif;
+    --paragraph-font: 'Sofia Sans', sans-serif;
+  
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #24424B ;  /* headlines on a white background */ 
+    --headline-color-on-color: #fff4eb; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #4A3830; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: #fff4eb; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #24424B  ;
+    --nav-link-color: #1D191A;
+    --nav-background-color: #d84000;
+    --nav-hover-link-color: #c08b00;
+    --nav-hover-background-color: #47B6C2;
+  }
 
-    }
-    .base img{
-        height: 80px;
-        margin-bottom: 10px;
-        padding-left: 10px;
-    }
-    #footerName{
-        margin: 20px;
-    }
-    #footerName h2{
-        margin-bottom: 0px;
-        margin-top: 10px;
-    }
-    #footerName p{
-        margin-top: 0px;
-    }
-    #address p{
-        margin: 0px;
-    }
-    #location{
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-right: 10px;
-    }
-    #location img{
-        height: 20px;
-    }
-    #footerinfo{
-        border-top: solid 1px grey;
-        display: flex;
-        text-align: center;
-        align-items: center;
-        justify-content: space-between;
-
-        padding-top: 5px;
-    }
-    #footerinfo h3{
-        margin: 0px;
-    }
-    #footerinfo p{
-        margin: 0px;
-    }
-
+  
+header {
+    display: block;
+    background-color: #24424B;
+    padding: 10px;
+}
+#topheader{
+    display: flex;
+    padding-bottom: 10px;
+    justify-content:space-between;
+}
+header img{
+    display: block;
+}
+.socialmedia{
+   display: flex;
+   flex-direction: row;
+   height: 20px;
+   justify-content: center;
+   padding-top: 20px;
+   padding-left: 10px;
+}
+#date{
+    display: block;
+    text-align: center;
+    background-color: #C3B7AC;
+}
+.headings {
+   font-family: 'Inter', sans-serif;
+   color: #e8b127;
+   padding: 10px;
+   padding-right: 20px;
+   display: flex;
+   flex-direction: column;
+}
+.headings h1{
+    margin: 0;
     
-    /* nav button {display: none;} */
+}
+nav button {
+    margin: .2rem 2vw;
+    border: none;
+    background: transparent;
+    font-size: 2rem;
+    color: #C3B7AC;
+}
+nav ul {
+    font-family: 'Sofia Sans', sans-serif;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #C3B7AC;
+    border-top: 1px solid rgba(0,0,0,0.5);
+}
+nav ul li.active a{
+    background-color: orange;
+    color: #fff;
+}
+nav ul li a:hover {
+    background-color:#c08b00 ;
+    font-size: larger;
+}
 
-    /* nav ul#primaryNav {
-        display: flex;
-        justify-content: flex-start;
-        margin-left: 2vw;
-        border-left: 1px solid black;
-    }
+nav ul {display: none;}
+nav ul.open {display: block;}
 
-    nav ul li a {
-        border: none;
-        border-right: 1px solid black;
-    } */
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2)  {display:none;}
 
-}   /* end medium */
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2)  {display:block;}
+
+main{
+    display: block;
+    background-color: white;
+}
+main h2{
+    font-size: smaller;
+}
+.banner{
+    background-color: #47B6C2;
+}
+.banner__content{
+    padding: 16px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.banner__text{
+    flex-grow: 1;
+    line-height: 1.4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+
+.banner__close{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.card{
+    font-family: 'Sofia Sans', sans-serif;
+    height: 200px;
+    border-top: solid 10px  white;
+    background-color: #C3B7AC;
+}
+#herocontainer{
+    margin-bottom: 10px;
+}
+#herocontainer img {
+    height: 50%;
+    width: 100%;
+    z-index: -12;
+}
+#eventcontainer {
+    padding-left: 10px;
+}
+#eventcontainer img{
+    height: 75%;
+    width: 90%;
+}
+#weather {
+    padding-left: 10px;
+    text-align: center;
+}
+#weather img{
+    height: 30%;
+    width: 10%;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+#newsrelease {
+    padding-left: 10px;
+}
+#spotlight {
+    padding-left: 10px;
+}
+#join {
+    display: none;
+    padding-left: 10px;
+}
+#spotlight{
+    height: auto;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#spotlight1{
+    height: 100%;
+    padding: 10px;
+    /* border: solid 1px black; */
+    text-align: center;
+    line-height: .5;
+}
+#spotlight1 img{
+    padding: 25px;
+    height: 25%;
+    width: 25%;
+}
+#spotlight2{
+    height: 100%;
+    padding: 10px;
+    /* border: solid 1px black; */
+    text-align: center;
+    line-height: .5;
+}
+#spotlight2 img{
+    padding: 15px;
+    height: 35%;
+    width: 25%;
+}
+
+#spotlight3{
+    display: none;
+    height: 100%;
+    padding: 10px;
+    /* border: solid 1px black; */
+    text-align: center;
+    line-height: .5;
+}
+#spotlight3 img{
+    padding: 15px;
+    height: 35%;
+    width: 25%;
+}
+
+footer{
+    background-color: #24424B;
+    display: block;
+}
+.base{
+    font-family: 'Inter', sans-serif;
+    color: #e8b127;
+    display: block;
+    text-align: center;
+}
+.base img{
+    height: 80px;
+    margin-top: 10px;
+}
+#footerName{
+    margin: 20px;
+}
+#footerName h2{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+#address{
+    font-size: x-small;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+#address p{
+    margin:0px;
+}
+#emailphone p{
+    font-size: x-small;
+    margin: 0px;
+}
+#location{
+    color: #C3B7AC;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#location a{
+    color: #C3B7AC;
+    font-size: x-small;
+}
+#location img{
+    height: 20px;
+}
+#footerinfo{
+    border-top: solid 1px #C3B7AC;
+    font-family: 'Inter', sans-serif;
+    color: #e8b127;
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+}
+#footerinfo h3{
+    letter-spacing: 1.5px;
+    font-size: x-small;
+    margin: 0px;
+}
+#footerinfo p{
+    font-size: xx-small;
+    margin: 0px;
+}
