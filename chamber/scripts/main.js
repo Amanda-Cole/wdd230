@@ -33,7 +33,7 @@ datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 let weekDay = now.getDay();
 
 if (weekDay !=0 && weekDay <=2){
-    document.getElementById("meetandgreet").style.display = "block";
+    document.querySelector(".banner").style.display = "flex";
 }
 
 

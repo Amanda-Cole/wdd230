@@ -114,6 +114,7 @@ main h2{
 }
 .banner{
     background-color: #47B6C2;
+    display: none;
 }
 .banner__content{
     padding: 16px;
