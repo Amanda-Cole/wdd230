@@ -77,22 +77,22 @@
         <div class = "card" id = "eventcontainer">
             <h2>Food Truck Night: This Tuesday 5:00 - 8:00pm  Sandy Park</h2>
             <picture>
-                <!-- <source media="(min-width:800px)" srcset ="images/Optimized-800x600wdd230-org(1).jpg 1x"> -->
-                <source media="(min-width:800px)" srcset ="images/Optimized-foodtruckLarge.png 1x"> 
-                <img src="images/Optimized-foodtruck250x150(1).png" alt="Food Truck">
+                <source media="(min-width:770px)" srcset ="images/mediumfoodtruck250x150(1).png 1x">
+                <source media="(min-width:360px)" srcset ="images/largefoodtruckLarge.png 1x"> 
+                <img src="images/largefoodtruckLarge.png" alt="Food Truck">
             </picture>
 
         </div >
 
-        <div class = "card" id = "weather">
+        <div class = "card" id = "weathercontainer">
             <h2>Weather</h2>
             <div id = "weatherImgDegree">
                 <img src="images/Optimized-sun250x250.jpg" alt="sun" class="responsive">
-                <p><span id = "temp">51</span>°F</p>
+                <p><span id = "temp">30</span>°F</p>
             </div>    
             <p><span id = "forecast"></span></p>
             <p>Wind Speed: &nbsp; <span id = "windspeed">4.2</span>mph</p>
-            <p>Wind Chill: &nbsp; <span id = "windchill"></span>°F</p>
+            <p>Wind Chill: &nbsp; <span id = "idwindchill"></span>°F</p>
         </div>
 
         <div class = "card" id = "newsrelease">
@@ -152,7 +152,7 @@
             <p>Last Modification: <span id = "modified_date"></span></p>
         </div>
     </footer>
-
+<script src = "scripts/windchill.js"></script>
 <script src="scripts/main.js"></script>
 </body>
 </html>

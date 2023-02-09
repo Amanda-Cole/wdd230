@@ -9,20 +9,32 @@
 <p>Wind Chill: &nbsp; <span id = "windchill"></span>°F</p>
 </div> */
 
-const t = document.getElementById('temp');
-const s = document.getElementById('windspeed');
-const windchill = "0"
+const tem = document.getElementById('temp');
+const speed = document.getElementById('windspeed');
+
+console.log (tem,speed);
+
+// let t = parseInt(tem)
+// let s = parseInt(speed)
+
+let t = 40;
+let s = 5;
+
+let windchill = 0;
 
 if (t<50 && s>3.0){
-    functWindchill(t,s)
+    windchill = functWindchill(t,s);
+
 }else{
-    windchill = "N/A"
+    windchill = 0;
 }
 
 function functWindchill(t,s){
-    windchill = 35.74 + (.6215*t)-(35.75*(s**.16)) + (.4275*(t*(s**.16)))
-        
-
-
-    
+    let innerWindchill = 35.74 + (.6215*t)-(35.75*(s**.16)) + (.4275*(t*(s**.16)));
+    innerWindchill = innerWindchill.toFixed();
+    return innerWindchill;
 }
+newWindChill = document.getElementById("idwindchill");
+newWindChill.innerHTML = windchill;
+
+

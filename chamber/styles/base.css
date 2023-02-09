@@ -144,40 +144,40 @@ main h2{
 /* BANNER END */
 
 .card{
-    display: grid;
-    grid-template-rows:  1fr 1fr 1fr 1fr;
     font-family: 'Sofia Sans', sans-serif;
-    height: 200px;
+    /* height: 200px; */
     border-top: solid 10px  white;
     background-color: #C3B7AC;
 }
 #herocontainer{
+    display: flex;
     margin-bottom: 10px;
-    grid-row: 1/2;
 }
 #herocontainer img {
-    grid-row: 1/2;
+    
     width: 100%;
     height: auto;
 }
 #eventcontainer {
+    display: flex;
+    flex-direction: column;
     padding-left: 10px;
-    grid-row: 2/3;
 }
 #eventcontainer img{
-    grid-row: 2/3;
     
-    width: 90%;
+    width: 100%;
     height: auto;
 }
-#weather {
+#weathercontainer {
     padding-left: 10px;
-    grid-row: 3/4;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
-#weather img{
-    height: 30%;
-    width: 10%;
+#weathercontainer img{
+    
+    width: 30%;
+    height: auto;
     justify-content: center;
     margin-top: 20px;
 
