@@ -4,7 +4,7 @@ function toggleMenu () {
 
 }
 
-const x = document. getElementById('hamburgerBtn')
+const x = document.getElementById('hamburgerBtn')
 x.onclick = toggleMenu;
 
 document.querySelector(".banner_close").addEventListener("click",function(){

@@ -1,4 +1,4 @@
-@media only screen and (min-width:1028px){
+@media only screen and (min-width:770px){
 
     header {
         display: block;
@@ -81,6 +81,10 @@
         border-top: 0px;
         padding: 10px;
         /* border-bottom: solid 10px white; */
+    }
+    #herocontainer img{
+        width: 100%;
+        height: auto;
     }
     #eventcontainer {
         padding-left: 10px;

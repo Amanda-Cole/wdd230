@@ -32,7 +32,7 @@
     <header>
         <div id = "topheader">
             <div id = logo>
-                <img src="images/50x50logoNoBlack.png" alt="SCCC Logo">
+                <img src="images/50x50logoNoBlackWEBP.png" alt="SCCC Logo">
             </div>
             <section class = "headings">
                 <h1>Sandy City</h1>
@@ -66,21 +66,33 @@
        
         <div class = "card" id = "herocontainer">
             <!-- <p>Hero with site name and call to action</p> -->
-            <img src="images/citylarge.png" alt="citypic" class="responsive">
+            <picture>
+                <source media="(min-width:770px)" srcset ="images/Optimized-800x600wdd230-org(1).jpg 1x">
+                <source media="(min-width:600px)" srcset ="images/Optimized-600x400wdd230-org.jpg 1x"> 
+                <img src="images/Opt300x200wdd230org.jpg" alt="class picture">
+            </picture>
+            <!-- <img src="images/citylarge.png" alt="citypic" class="responsive"> -->
         </div>
 
         <div class = "card" id = "eventcontainer">
             <h2>Food Truck Night: This Tuesday 5:00 - 8:00pm  Sandy Park</h2>
-            <img src="images/foodtruck.png" alt="foodtruck" class="responsive">
+            <picture>
+                <!-- <source media="(min-width:800px)" srcset ="images/Optimized-800x600wdd230-org(1).jpg 1x"> -->
+                <source media="(min-width:800px)" srcset ="images/Optimized-foodtruckLarge.png 1x"> 
+                <img src="images/Optimized-foodtruck250x150(1).png" alt="Food Truck">
+            </picture>
+
         </div >
 
         <div class = "card" id = "weather">
-            <img src="images/sun.jpg" alt="sun" class="responsive">
-
             <h2>Weather</h2>
-            <p>Sunny and chance of snow</p>
-            <p>38° f</p>
-            
+            <div id = "weatherImgDegree">
+                <img src="images/Optimized-sun250x250.jpg" alt="sun" class="responsive">
+                <p><span id = "temp">51</span>°F</p>
+            </div>    
+            <p><span id = "forecast"></span></p>
+            <p>Wind Speed: &nbsp; <span id = "windspeed">4.2</span>mph</p>
+            <p>Wind Chill: &nbsp; <span id = "windchill"></span>°F</p>
         </div>
 
         <div class = "card" id = "newsrelease">
