@@ -9,7 +9,13 @@ picture{
     height: 400px;
     background-color: black;
     border: 2px solid white;
-    /* filter: blur(0em); */
+}
+
+img{
+    filter: blur(0em);
     transition: filter .5s;
 }
 
+[data-src]{
+    filter: blur(.2em);
+}
