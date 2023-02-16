@@ -241,7 +241,7 @@ footer{
 .base{
     font-family: 'Inter', sans-serif;
     color: #e8b127;
-    display: block;
+    /* display: block; */
     text-align: center;
 }
 .base img{
