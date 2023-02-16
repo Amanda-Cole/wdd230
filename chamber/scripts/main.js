@@ -49,8 +49,8 @@ document.getElementById("modified_date").innerHTML = date;
 
 // LAST VISITED = .visitcounter
 
-const visitsDisplay = document.querySelector("#visits");
-const daysBetweenOutput = document.querySelector("#daysbetween");
+const visitsDisplay = document.getElementById("visits");
+const daysBetweenOutput = document.getElementById("daysbetween");
 
 let numVisits = Number(window.localStorage.getItem("visits-ls"));
 
@@ -67,6 +67,8 @@ let daysBetween = (Date.now() - lastTime)/84600000;
 
 if (daysBetween !==0){
     let rounded = Math.round(daysBetween);
+    console.log(daysBetweenOutput);
+    
     daysBetweenOutput.textContent= "test";
 }else{
     daysBetweenOutput.textContent = "It hasn't been a day yet";
