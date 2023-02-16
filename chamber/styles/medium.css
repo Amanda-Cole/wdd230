@@ -108,11 +108,11 @@
     #hamburgerBtn.open span:nth-child(1) {display: none;}
     #hamburgerBtn.open span:nth-child(2)  {display:block;}
 
-    main{
+    #home{
         display: block;
         background-color: white;
     }
-    main h2{
+   #home h2{
         font-size: smaller;
     }
     .banner{
@@ -244,6 +244,24 @@
         background-color: #24424B;
         display: block;
     }
+    .label{
+        display: block;
+        color:#e8b127;
+        padding-left: 5px;
+        letter-spacing: .05em;
+        }
+    #visits{
+        display: flex;
+        color:#e8b127;
+        padding-left: 5px;
+
+    }   
+    #daysBetween{
+        display: flex;
+        color:#e8b127;
+        padding-left: 5px;
+
+    } 
     .base{
         font-family: 'Inter', sans-serif;
         color: #e8b127;
@@ -307,9 +325,12 @@
         border-top: solid 1px #C3B7AC;
         font-family: 'Inter', sans-serif;
         color: #e8b127;
-        display: block;
         text-align: center;
         padding-top: 5px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-top: auto;
+        padding-bottom: 20px;
     }
     #footerinfo h3{
         letter-spacing: 1.5px;
@@ -320,4 +341,23 @@
         font-size: xx-small;
         margin: 0px;
     }
+
+/* DISCOVER PAGE */
+.discoverCard::before{
+    background: #e8b127;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+    
+}
+.discoverCard:hover::before{
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #e8b127;
+}
+.discoverCard:hover{
+    color: #d84000;
+    box-shadow: 0 0 50px #e8b127;
+    text-shadow: 0 0 50px black;
+    font-size: x-large;
+}
 }

@@ -46,3 +46,30 @@ document.getElementById("copyyear").innerHTML = new Date().getFullYear();
 // MODIFIED DATE FOOTER
 var date = document.lastModified;
 document.getElementById("modified_date").innerHTML = date;
+
+// LAST VISITED = .visitcounter
+
+const visitsDisplay = document.querySelector("#visits");
+const daysBetweenOutput = document.querySelector("#daysbetween");
+
+let numVisits = Number(window.localStorage.getItem("visits-ls"));
+
+if (numVisits!==0){
+    visitsDisplay.textContent = numVisits;
+}else{
+    visitsDisplay.textContent = 'This is your first visit!';
+}
+numVisits++;
+
+localStorage.setItem("visits-ls", numVisits);
+var lastTime = new Date(document.lastModified).getTime();
+let daysBetween = (Date.now() - lastTime)/84600000;
+
+if (daysBetween !==0){
+    let rounded = Math.round(daysBetween);
+    daysBetweenOutput.textContent= "test";
+}else{
+    daysBetweenOutput.textContent = "It hasn't been a day yet";
+}
+// let rounded = Math.round(daysBetween);
+// daysBetweenOutput.textContent= rounded;

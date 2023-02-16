@@ -54,7 +54,7 @@
     nav ul li a {
         border: none;
     } 
-    main{
+    #home{
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
@@ -191,5 +191,10 @@
         height: 20px;
     
     }
+/* discover page */
+#discover{
+    display: flex;
+    flex-direction: column;
+}   
 
 }    /*end large
