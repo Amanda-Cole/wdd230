@@ -201,19 +201,20 @@ nav ul.open {display: block;}
     margin-bottom: 10px;
 }
 #spotlight1{
-    height: 100%;
     padding: 10px;
+    /* height: 100%; */
+
     /* border: solid 1px black; */
     text-align: center;
     line-height: 1;
 }
 #spotlight1 img{
     padding: 25px;
-    height: 25%;
-    width: 25%;
+    /* height: 25%;
+    width: 25%; */
 }
 #spotlight2{
-    height: 100%;
+    /* height: 100%; */
     padding: 10px;
     /* border: solid 1px black; */
     text-align: center;
@@ -221,13 +222,13 @@ nav ul.open {display: block;}
 }
 #spotlight2 img{
     padding: 15px;
-    height: 35%;
-    width: 25%;
+    /* height: 35%;
+    width: 25%; */
 }
 
 #spotlight3{
     display: none;
-    height: 100%;
+    /* height: 100%; */
     padding: 10px;
     /* border: solid 1px black; */
     text-align: center;
@@ -235,8 +236,8 @@ nav ul.open {display: block;}
 }
 #spotlight3 img{
     padding: 15px;
-    height: 35%;
-    width: 25%;
+    /* height: 35%;
+    width: 25%; */
 }
 
 footer{
