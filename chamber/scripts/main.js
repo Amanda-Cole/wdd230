@@ -61,7 +61,7 @@ if (numVisits > 1){
     visitsDisplay.textContent = 'This is your first visit!';
     lastTime = Date.now();
 }
-let daysBetween = (Date.now() - lastTime)/84600000;
+let daysBetween = (Date.now() - lastTime)/86400000;
 localStorage.setItem("visits-ls", numVisits);
 localStorage.setItem("lastVisitDateTime", Date.now());
 
