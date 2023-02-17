@@ -50,26 +50,24 @@ document.getElementById("modified_date").innerHTML = date;
 // LAST VISITED = .visitcounter
 
 const visitsDisplay = document.getElementById("visits");
-const daysBetweenOutput = document.getElementById("daysbetween");
+const daysBetweenOutput = document.getElementById("daysBetween");
 
 let numVisits = Number(window.localStorage.getItem("visits-ls"));
-
-if (numVisits!==0){
+let lastTime = Number(window.localStorage.getItem("lastVisitDateTime"));
+numVisits++;
+if (numVisits > 1){
     visitsDisplay.textContent = numVisits;
 }else{
     visitsDisplay.textContent = 'This is your first visit!';
+    lastTime = Date.now();
 }
-numVisits++;
-
-localStorage.setItem("visits-ls", numVisits);
-var lastTime = new Date(document.lastModified).getTime();
 let daysBetween = (Date.now() - lastTime)/84600000;
+localStorage.setItem("visits-ls", numVisits);
+localStorage.setItem("lastVisitDateTime", Date.now());
 
-if (daysBetween !==0){
-    let rounded = Math.round(daysBetween);
-    console.log(daysBetweenOutput);
-    
-    daysBetweenOutput.textContent= "test";
+let rounded = Math.round(daysBetween);
+if (rounded !==0){
+    daysBetweenOutput.textContent= rounded;
 }else{
     daysBetweenOutput.textContent = "It hasn't been a day yet";
 }
