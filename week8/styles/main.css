@@ -1,0 +1,36 @@
+table{
+    border: 2px black solid;
+    box-shadow: 0 0 7px grey;
+    width: 500px;
+    height: 200px;
+    border-collapse: collapse;
+    /* border-collapse */
+}
+
+
+caption {
+    caption-side: bottom;
+}
+
+thead :first-child{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+thead:nth-child(2){
+    background-color:grey;
+}
+
+/* zebra */
+tbody tr:nth-child(even){
+    background-color: rgb(219, 232, 240);
+}
+
+td{
+    text-align: center;
+    border: solid 2px grey;
+   
+}
+tbody:first-child {
+    border: solid 1 px grey;
+}
