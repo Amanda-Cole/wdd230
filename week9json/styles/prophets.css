@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+}
+.menu{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+main{
+    background-color:white;
+    /* position: relative; */
+    display: block;
+
+}
+#grid{
+    margin-right: 20px;
+}
+
+.grid section{
+    border: solid black 1px;
+    border-radius: 50px;
+    background-color: cadetblue;
+    text-align: center;
+    padding: 10px
+}
+.grid .cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px,1fr));
+    grid-gap: 20px;
+}
+.grid img{
+    border-radius: 10px
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+}
+.list section{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    margin: 0;
+}
+.list img{
+    display: none;
+}
+.list section;:nth-child(even){
+    background-color: beige;
+}
