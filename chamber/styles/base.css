@@ -119,6 +119,7 @@ nav ul.open {display: block;}
 }
 #home h2{
     font-size: smaller;
+    margin-top: 5px;
 }
 
 /* BANNER START */
@@ -151,46 +152,54 @@ nav ul.open {display: block;}
 .card{
     font-family: 'Sofia Sans', sans-serif;
     /* height: 200px; */
-    border-top: solid 10px  white;
+    /* border-top: solid 10px  white; */
     background-color: #C3B7AC;
 }
 #herocontainer{
     display: flex;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     justify-content: center;
+    margin-top: 5px;
+    text-align: center;
 }
 #herocontainer img {
-    align-content: center;
-    width: 100%;
-    height: auto;
+    /* align-content: center; */
+    width: 90%; 
+    height: auto; 
+    padding: 5px;
     
 }
 #eventcontainer {
     display: flex;
     flex-direction: column;
-    padding-left: 10px;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    margin-top: 5px;
+    /* padding-left: 10px; */
 }
-#eventcontainer img{
-    
-    width: 100%;
-    height: auto;
-}
+/* #eventcontainer img{
+    /* align-content: center; */
+    /* width: 100%;
+    height: auto; */
+/* } */ 
 #weathercontainer {
-    padding-left: 10px;
+    padding: 10px;
     text-align: center;
     display: flex;
     flex-direction: column;
+    /* border: solid gray; */
+    margin-top: 5px;
 }
 #weathercontainer img{
-    
     width: 30%;
     height: auto;
     justify-content: center;
-    margin-top: 20px;
-
 }
 #newsrelease {
-    padding-left: 10px;
+    padding: 10px;
+    
+    margin-top: 5px;
 }
 #join {
     display: none;
@@ -200,7 +209,9 @@ nav ul.open {display: block;}
     height: auto;
     justify-content: center;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    /* margin-bottom: 10px; */
 }
 #spotlight1{
     padding: 10px;
@@ -266,9 +277,9 @@ footer{
     margin-top: 10px;
     height: 50px;
 }
-#footerName{
+/* #footerName{
     /* margin: 20px; */
-}
+/* }  */
 #footerName h2{
     margin-bottom: 0px;
     margin-top: 0px;
@@ -317,6 +328,16 @@ footer{
 }
 
 /* discover page */
+
+#discover img{
+    filter: blur(0em);
+    transition: filter .5s;
+}
+
+#discover img[data-src]{
+    filter: blur(.2em);
+}
+
 #discover{
     background-color: #C3B7AC;
     display: flex;

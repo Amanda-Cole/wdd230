@@ -35,8 +35,6 @@ let weekDay = now.getDay();
 if (weekDay !=0 && weekDay <=2){
     document.querySelector(".banner").style.display = "flex";
 }
-// hidden date from Join Form when submit button is clicked
-document.getElementById("hidden-date").innerHTML= new Date();
 
 
 

@@ -141,7 +141,7 @@
     .card{
         font-family: 'Sofia Sans', sans-serif;
         height: 200px;
-        border-top: solid 10px  white;
+        /* border-top: solid 10px  white; */
         background-color: #C3B7AC;
     }
     #herocontainer{
@@ -159,10 +159,10 @@
         height: auto;
         justify-content: center;
     }
-    #eventcontainer img{
-        width: 100%;
-        height: auto;
-    }
+    /* #eventcontainer img{
+        /* width: 100%; */
+        /* height: auto; */
+    /* } */ 
     #weathercontainer {
         padding-left: 10px;
         text-align: center;
@@ -170,10 +170,10 @@
         justify-content: center;
     }
     #weathercontainer img{
-        height: 20%;
-        width:auto;
+        height: 75px; 
+        width:auto; 
         justify-content: center;
-        margin-top: 20px;
+        /* margin-top: 20px; */
 
     }
     #newsrelease {
@@ -190,7 +190,7 @@
     }
     #join {
         display: block;
-        padding-left: 10px;
+        padding-left: 20px;
         height: auto;
         justify-content: center;
 
@@ -199,7 +199,7 @@
         height: auto;
         justify-content: center;
         padding: 10px;
-        margin-bottom: 10px;
+        /* margin-bottom: 10px; */
     }
     #spotlight1{
         /* height: 100%; */
@@ -209,7 +209,7 @@
         line-height: .5;
     }
     #spotlight1 img{
-        padding: 25px;
+        padding: 15px;
         /* height: 25%;
         width: 25%; */
     }
