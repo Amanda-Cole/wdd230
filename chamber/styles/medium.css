@@ -376,6 +376,7 @@ main{
 }
 
 .grid section{
+    flex-direction: column;
     border: solid black 1px;
     border-radius: 50px;
     background-color: cadetblue;
@@ -384,7 +385,7 @@ main{
 }
 .grid .cards{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(560px, 1fr, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-gap: 20px;
 }
 .grid img{

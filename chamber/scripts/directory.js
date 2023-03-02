@@ -29,7 +29,7 @@ const displayMembers =(members)=>{
     var index = 0;
     members.forEach((member) => {
         let card = document.createElement('section');
-        let name = document.createElement('p');
+        let name = document.createElement('h1');
         let address = document.createElement('p');
         let phone = document.createElement('p')
         let membership = document.createElement('p');
@@ -62,12 +62,6 @@ const displayMembers =(members)=>{
         cards.appendChild(card);
 
         index++;
-
-
-
-
-
-
         
     });
 }
