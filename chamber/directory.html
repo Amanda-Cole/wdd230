@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandy City Chamber of Commerce</title>
+
+    <meta name = "description" content="Directory for Sandy City Chamber. Shows member information.">
+
+    <link href = "styles/base.css" rel = "stylesheet">
+    <link href = "styles/medium.css" rel = "stylesheet">
+    <link href = "styles/large.css" rel = "stylesheet">
+
+
+<!-- hamburger #9776 -->
+
+</head>
+<body>
+    <div class = "banner">
+        <div class ="banner__content">
+            <div class = "banner__text">
+                 <p>🤝 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+            </div>
+        <button class = "banner_close" type = "button" > ❌
+        </button>
+        </div>
+    </div>
+
+    <header>
+        <div id = "topheader">
+            <div id = logo>
+                <img src="images/logo100.png" alt="SCCC Logo">
+            </div>
+            <section class = "headings">
+                <h1>Sandy City</h1>
+                <div class = "m">Chamber of Commerce</div>
+            </section>
+            <div class = "socialmedia">
+                <img src="images/facebookpng.png" alt="Facebook Logo">
+                <img src="images/instagrampng.png" alt="LinkedIn Logo">
+            </div>
+            <nav>
+
+                <!-- add class active on other sheets for menu responsiveness CSS to work -->
+                <button id = "hamburgerBtn"><span>&#9776;</span><span>X</span></button> 
+                <ul id = "primaryNav">
+                    <li><a href = "index.html">Home</a></li>
+                    <li><a href = "discover.html">Discover</a></li>  
+                    <li><a href = "directory.html">Directory</a></li>
+                    <li><a href = "join.html">Join</a></li>
+                    <li><a href = "contact.html">Contact</a></li>
+                </ul>
+        
+            </nav>
+        </div>
+        <div id = "date">
+        </div>
+
+    </header>
+    <main>
+        <section id="directoryhome">
+            <!-- <div class = "card" id = "herocontainer">
+                <!- <p>Hero with site name and call to action</p> -->
+                <!-- <picture>
+                    <source media="(min-width:770px)" srcset ="images/main1200x200.png 1x">
+                    <source media="(min-width:560px)" srcset ="images/main1200x200.png 1x"> 
+                    <img src="images/main600x300.webP" alt="hero picture" >
+                </picture> -->
+                <!-- <img src="images/citylarge.png" alt="citypic" class="responsive"> -->
+            <!-- </div> --> 
+            <h1>Sandy City Chamber Directory</h1>
+
+            <div class="menu">
+                <button id="grid">📅Grid</button>
+                <button id="list">🗒️List</button>
+            </div>
+            <article class="grid">
+                <div class="cards"></div>
+
+            </article>
+            <div id="space"></div>
+        </section>
+    </main>
+    <footer>
+        <div class = "base">
+            <div id = "footerName">
+                <img src="images/logo100.png" alt="SCCC Logo">
+
+                <h2>Sandy City</h2>
+                <p>Chamber of Commerce</p>
+            </div>
+            <div id = "address">
+                <p>1050 Main Street</p>
+                <p>Sandy, UT 84093</p>
+            </div>    
+            <div id = "emailphone">
+                <p>info@sandycitychamber.org</p>
+                <p>(801) 599-1876</p>
+            </div>
+            <div id = "location">
+                <img src="images/googlepin.jpg" alt="google pin"> <a href="https://www.google.com/maps/@40.6008642,-111.8346546,14z"> Locate us</a>
+        
+            </div>   
+        </div>    
+        <div id = "footerinfo" >
+            <p>&copy;<span id = "copyyear"></span> Sandy City Chamber</p>  
+            <h3>Amanda Cole</h3> 
+            <p>WDD 230 Project</p>
+            <p>Last Modification: <span id = "modified_date"></span></p>
+        </div>
+    </footer>
+<script src = "scripts/directory.js"></script>
+<script src="scripts/main.js"></script>
+</body>
+</html>

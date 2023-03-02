@@ -42,15 +42,21 @@ header {
 #logo img{
     display: block;
     width: 50px;
+    height: 50px;
     
 }
 .socialmedia{
    display: flex;
    flex-direction: row;
    height: 20px;
+   width: 20px;
    justify-content: center;
    padding-top: 20px;
    padding-left: 10px;
+}
+.socialmedia img{
+    height: 20px;
+    width: 20px;
 }
 #date{
     display: block;
@@ -276,6 +282,7 @@ footer{
 .base img{
     margin-top: 10px;
     height: 50px;
+    width: 50px;
 }
 /* #footerName{
     /* margin: 20px; */
@@ -306,7 +313,8 @@ footer{
     font-size: x-small;
 }
 #location img{
-    height: 20px;
+    height: 26px;
+    width:15px;
 }
 #footerinfo{
     border-top: solid 1px #C3B7AC;
@@ -464,3 +472,88 @@ form label.top input:required:valid{
     font-size: larger;
 }
 
+/* -------------Directory Page--------------- */
+
+#directoryhome h1{
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+.menu{
+    text-align: center;
+    margin-bottom: 10px;
+    background-color:#C3B7AC
+
+}
+#directoryhome{
+    background-color:#C3B7AC;
+    
+}
+#directoryhome a{
+    color: black;
+}
+
+/* main{
+   
+    /* position: relative; */
+    /* display: block; */
+
+/* } */ 
+#grid{
+    margin-right: 20px;
+}
+
+.grid section{
+    border: solid black 1px;
+    border-radius: 50px;
+    background-color: cadetblue;
+    text-align: center;
+    padding: 10px;
+    width: 320px;
+}
+.grid .cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px,1fr));
+    grid-gap: 20px;
+    justify-items: center;
+    margin-bottom: 5px;
+}
+.grid img{
+    border-radius: 10px;
+    /* width: 250px; */
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+}
+.list section{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    margin: 0;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+.list img{
+    display: none;
+}
+.list section:nth-child(odd){
+    background-color: beige;
+}
+#space{
+    padding: 10px;
+}
+/* .directorybase{
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Inter', sans-serif;
+    color: #e8b127;
+    display: block;
+    /* text-align: center; */
+
+/* }
+.directorybase img{
+    height: 50px;
+    width: 50px;
+}
+ */ 

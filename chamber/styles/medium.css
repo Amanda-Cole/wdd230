@@ -235,10 +235,10 @@
         line-height: .5;
     }
 
-    footer{
+    /* footer{
         background-color: #24424B;
         display: block;
-    }
+    } */
     .label{
         display: block;
         color:#e8b127;
@@ -258,9 +258,9 @@
 
     } 
     .base{
-        font-family: 'Inter', sans-serif;
+        /* font-family: 'Inter', sans-serif;
         color: #e8b127;
-        text-align: center;
+        text-align: center; */
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         margin-top: auto;
@@ -313,29 +313,29 @@
         color: #C3B7AC;
         font-size: x-small;
     }
-    #location img{
+    /* #location img{
         height: 20px;
-    }
+    } */
     #footerinfo{
-        border-top: solid 1px #C3B7AC;
+        /* border-top: solid 1px #C3B7AC;
         font-family: 'Inter', sans-serif;
-        color: #e8b127;
-        text-align: center;
+        color: #e8b127; */
+        /* text-align: center; */
         padding-top: 5px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         margin-top: auto;
         padding-bottom: 20px;
     }
-    #footerinfo h3{
+    /* #footerinfo h3{
         letter-spacing: 1.5px;
         font-size: x-small;
         margin: 0px;
-    }
-    #footerinfo p{
+    } */
+    /* #footerinfo p{
         font-size: xx-small;
         margin: 0px;
-    }
+    } */
 
 /* DISCOVER PAGE */
 .discoverCard::before{
@@ -355,4 +355,78 @@
     text-shadow: 0 0 50px black;
     font-size: x-large;
 }
+
+h1{
+    text-align: center;
+}
+.menu{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+main{
+    background-color:white;
+    /* position: relative; */
+    display: block;
+
+}
+#grid{
+    margin-right: 20px;
+}
+
+.grid section{
+    border: solid black 1px;
+    border-radius: 50px;
+    background-color: cadetblue;
+    text-align: center;
+    padding: 10px
+}
+.grid .cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(560px, 1fr, 1fr));
+    grid-gap: 20px;
+}
+.grid img{
+    border-radius: 10px
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+}
+.list section{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    margin: 0;
+}
+.list img{
+    display: none;
+}
+.list section:nth-child(odd){
+    background-color: beige;
+}
+/* .directorybase{
+    padding-top: 10px;
+    font-family: 'Inter', sans-serif;
+    color: #e8b127;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+    }
+
+ */
+
+
+
+
+
+
+
+
+
+
 }
