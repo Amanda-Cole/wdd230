@@ -48,7 +48,7 @@ const displayMembers =(members)=>{
         portrait.setAttribute('src', member.image);
         portrait.setAttribute('alt',`${member.name} logo`);
         if (index > 0) {
-            //portrait.setAttribute('loading', 'lazy');
+            portrait.setAttribute('loading', 'lazy');
         }
         portrait.setAttribute('width','250');
         portrait.setAttribute('height','80')

@@ -1,0 +1,22 @@
+html{
+    background-color: white;
+}
+body{
+    text-align: center;
+
+    margin: 50px auto;
+    width: fit-content;
+    background-image: radial-gradient(rgb(236, 247, 25), rgb(237, 229, 229));
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border: solid navy;
+    border-radius: 20px;
+    /* display: grid;
+    grid-template-columns: 1fr; */
+    padding: 20px;
+
+}
+
+h1{
+    font-style: italic;
+}
