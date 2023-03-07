@@ -168,14 +168,20 @@
         text-align: center;
         height: auto;
         justify-content: center;
+        letter-spacing: 1px;
     }
     #weathercontainer img{
-        height: 75px; 
-        width:auto; 
+        height: 100px;  
+        width:auto;  
         justify-content: center;
         /* margin-top: 20px; */
 
     }
+    #weathercontainer h2{
+        font-size: 1.5em;
+        letter-spacing: .8px;
+    }
+    
     #newsrelease {
         padding-left: 10px;
         height: auto;
@@ -332,10 +338,10 @@
         font-size: x-small;
         margin: 0px;
     } */
-    /* #footerinfo p{
+    #footerinfo p{
         font-size: xx-small;
-        margin: 0px;
-    } */
+        margin: 5px;
+    }
 
 /* DISCOVER PAGE */
 .discoverCard::before{

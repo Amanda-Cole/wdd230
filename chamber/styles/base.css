@@ -196,12 +196,31 @@ nav ul.open {display: block;}
     flex-direction: column;
     /* border: solid gray; */
     margin-top: 5px;
+    background-color: #24424B ;
+    color: white;
+}
+#weathercontainer h2{
+    font-size: 1.5em;
+    
+}
+#weatherImgDegree{
+    border-bottom: #c08b00 2px solid;
 }
 #weathercontainer img{
-    width: 30%;
-    height: auto;
+    /* width: 30%;
+    height: auto; */
     justify-content: center;
 }
+#weathercontainer p{
+    margin: auto;
+    /* padding-bottom: 10px; */
+}
+/* #weatherImgDegree{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+} */
+
 #newsrelease {
     padding: 10px;
     
@@ -333,6 +352,9 @@ footer{
 #footerinfo p{
     font-size: xx-small;
     margin: 0px;
+}
+#footerinfo a{
+    color: #c08b00;
 }
 
 /* discover page */

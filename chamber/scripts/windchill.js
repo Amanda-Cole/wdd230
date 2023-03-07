@@ -41,7 +41,7 @@ function displayResults(weatherData){
         calculatedWindChill = functWindchill(tempData,speedData);
     
     }else{
-        calculatedWindChill = 0;
+        calculatedWindChill = "N/A";
     }
 
     console.log(calculatedWindChill);
