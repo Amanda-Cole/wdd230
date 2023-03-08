@@ -351,6 +351,9 @@
     z-index: -1;
     
 }
+#discover img{
+    width: auto;
+}
 .discoverCard:hover::before{
     transform: scale(1.1);
     box-shadow: 0 0 15px #e8b127;

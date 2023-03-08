@@ -362,6 +362,7 @@ footer{
 #discover img{
     filter: blur(0em);
     transition: filter .5s;
+    width: 300px;
 }
 
 #discover img[data-src]{
