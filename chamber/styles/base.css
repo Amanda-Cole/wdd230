@@ -167,19 +167,20 @@ nav ul.open {display: block;}
     justify-content: center;
     margin-top: 5px;
     text-align: center;
+    padding: 15px;
 }
 #herocontainer img {
     /* align-content: center; */
     width: 90%; 
     height: auto; 
-    padding: 5px;
+    /* padding: 5px; */
     
 }
 #eventcontainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 10px;
+    padding: 15px;
     text-align: center;
     margin-top: 5px;
     /* padding-left: 10px; */
@@ -222,7 +223,7 @@ nav ul.open {display: block;}
 } */
 
 #newsrelease {
-    padding: 10px;
+    padding: 15px;
     
     margin-top: 5px;
 }
@@ -354,10 +355,19 @@ footer{
     margin: 0px;
 }
 #footerinfo a{
-    color: #c08b00;
+    color: #e8b127;
 }
 
 /* discover page */
+
+#title{
+    background-color: #C3B7AC;
+    margin: 0%;
+    padding: 20px;
+    text-align: center;
+
+
+}
 
 #discover img{
     filter: blur(0em);
