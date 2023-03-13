@@ -384,6 +384,7 @@ footer{
     background-color: #C3B7AC;
     display: flex;
     flex-direction: column;
+    text-align: center;
     align-items: center;
     padding-left: 10%;
     padding-right: 10%;
@@ -394,11 +395,12 @@ footer{
 .discoverCard{
     border: solid black 1px;
     margin: 10px;
-    padding:20px;
+    padding:10px;
     text-align: center;
 }
 .discoverCard p{
     width: 350px;
+    text-align: center;
 }
 
 /* join page */

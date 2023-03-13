@@ -356,9 +356,10 @@
     z-index: -1;
     
 }
-/* #discover img{
-    width: auto;
-} */
+#discover img{
+    width: 500px;
+    height: auto;
+}
 .discoverCard:hover::before{
     transform: scale(1.1);
     box-shadow: 0 0 15px #e8b127;
@@ -369,6 +370,11 @@
     text-shadow: 0 0 50px black;
     font-size: x-large;
 }
+.discoverCard p{
+    width: 500px;
+    text-align: center;
+}
+
 
 h1{
     text-align: center;
