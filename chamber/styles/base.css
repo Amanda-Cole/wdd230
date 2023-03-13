@@ -373,6 +373,7 @@ footer{
     filter: blur(0em);
     transition: filter .5s;
     width: 300px;
+    height: 180px;
 }
 
 #discover img[data-src]{
@@ -384,8 +385,8 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 30%;
-    padding-right: 30%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 #discover h1{
     text-align: center;    
@@ -394,7 +395,12 @@ footer{
     border: solid black 1px;
     margin: 10px;
     padding:20px;
+    text-align: center;
 }
+.discoverCard p{
+    width: 350px;
+}
+
 /* join page */
 
 #join-main {
