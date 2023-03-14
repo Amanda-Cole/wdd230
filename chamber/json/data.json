@@ -2,20 +2,12 @@
     "members":
     [
         {
-            "name":"Nothing Bundt Cakes",
-            "address":"10389 S State St",
-            "phone":"801-619-3757",
+            "name":"Kneaders Bakery & Cafe",
+            "address":"742 E Ft.Union Boulevard",
+            "phone":"801-563-1991",
             "membership":"Silver",
-            "linkUrl":"https://www.nothingbundtcakes.com/",
-            "image":"images/nothingbundtcakes.webp"
-        },
-        {
-            "name":"Centered City Yoga",
-            "address":"920 E 900 S",
-            "phone":"801-521-YOGA",
-            "membership":"Gold",
-            "linkUrl":"https://www.centeredcityyoga.com/",
-            "image":"images/yoga.webp"
+            "linkUrl":"https://www.kneaders.com/",
+            "image":"images/kneaders.webp"
         },{
             "name":"The Accounting Factor",
             "address":"899 E 9400 S",
@@ -65,7 +57,14 @@
             "membership":"Silver",
             "linkUrl":"https://www.utahhomefitness.com/",
             "image":"images/uthomefit.webp"
-        }
+        },{
+            "name":"Centered City Yoga",
+            "address":"920 E 900 S",
+            "phone":"801-521-YOGA",
+            "membership":"Gold",
+            "linkUrl":"https://www.centeredcityyoga.com/",
+            "image":"images/yoga.webp"
+        }    
 
     ]
 }

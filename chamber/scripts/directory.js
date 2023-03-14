@@ -1,4 +1,4 @@
-const url = 'https://run.mocky.io/v3/d9c0faaf-ed2e-461e-a763-5f2e17513776';
+const url = 'https://run.mocky.io/v3/430f8332-45f4-4049-989c-3532b525c1cf';
 
 async function getDirectoryData(){
     const response = await fetch(url);

@@ -561,6 +561,7 @@ form label.top input:required:valid{
 }
 .grid img{
     border-radius: 10px;
+    height: 80px;
     /* width: 250px; */
 }
 
