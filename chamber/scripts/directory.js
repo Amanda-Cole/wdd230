@@ -3,6 +3,7 @@ const url = 'https://run.mocky.io/v3/430f8332-45f4-4049-989c-3532b525c1cf';
 async function getDirectoryData(){
     const response = await fetch(url);
     const data = await response.json();
+    // test
 
     // console.table(data.members);
     displayMembers(data.members);
