@@ -61,7 +61,7 @@
 
     </header>
     <main>
-        <section id="home">
+        <section id="contactmain">
             <div class = "card" id = "herocontainer">
                 <!-- <p>Hero with site name and call to action</p> -->
                 <picture>
@@ -71,13 +71,16 @@
                 </picture>
                 <!-- <img src="images/citylarge.png" alt="citypic" class="responsive"> -->
             </div>
-            <form id="join-form" method="get" action="questionRec.html">
+           
+            <form id="contact-form" method="get" action="questionRec.html">
                 <fieldset>
                     <legend>Contact Form</legend>
                     <label class="top">Name*<input type="text" name="fullname" required></label>
                     <label class="top"> Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                    <label class="top">Questions or Concerns<input type="text" name="question" required></label>
+                    <label class="top">Questions or Concerns<input type="text" id="questions" name="question" required></label>
                 </fieldset>
+                <input type="submit" value="Submit Question" class="submitBtn">
+
             </form>
             <div class = "contact" >
                 <h2>Contact Us</h2>
@@ -96,9 +99,6 @@
                     <a href="mailto:chamber@sandycity.com">chamber@sandycity.com</a>
                 </div>
             </div>
-
-    
-
         </section>
     </main>
     <footer>

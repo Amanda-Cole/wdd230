@@ -584,18 +584,41 @@ form label.top input:required:valid{
 #space{
     padding: 10px;
 }
-/* .directorybase{
-    text-align: center;
-    padding-top: 10px;
-    font-family: 'Inter', sans-serif;
-    color: #e8b127;
-    display: block;
-    /* text-align: center; */
-
-/* }
-.directorybase img{
-    height: 50px;
-    width: 50px;
-}
- */ 
+ 
 /* *******************Contact Form********************** */
+#contactmain{
+    background-color: #C3B7AC;
+}    
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#contact-form .submitBtn{
+    margin-bottom: 10px;
+}
+.contact a{
+    color: black;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 40px;
+    /* border: solid black 5px; */
+    line-height: .2rem;
+    padding-bottom: 20px;
+}
+.contact h2{
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#contactmain legend{
+    font-size: xx-large;
+}
+#contactmain form fieldset{
+    padding-right: 15px;
+}
+

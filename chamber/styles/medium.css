@@ -440,6 +440,15 @@ main{
     }
 
  */
+ .contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 0px;
+    /* border: solid black 5px; */
+    line-height: .2rem;
+    padding-bottom: 20px;
+}
 
 
 
