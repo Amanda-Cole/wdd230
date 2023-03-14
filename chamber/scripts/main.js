@@ -13,6 +13,7 @@ document.querySelector(".banner_close").addEventListener("click",function(){
 
 
 // HEADER DATE
+// $("a[href*='" + location.pathname + "']").addClass("current");
 
 
 const datefieldUK = document.querySelector("#date"); // for european/family history format with day first.

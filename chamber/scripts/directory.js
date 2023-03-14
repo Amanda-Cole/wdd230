@@ -1,4 +1,4 @@
-const url = 'https://run.mocky.io/v3/b7bdaab2-4834-451c-b993-879f8688cc4d';
+const url = 'https://run.mocky.io/v3/d9c0faaf-ed2e-461e-a763-5f2e17513776';
 
 async function getDirectoryData(){
     const response = await fetch(url);
@@ -50,7 +50,7 @@ const displayMembers =(members)=>{
         if (index > 0) {
             portrait.setAttribute('loading', 'lazy');
         }
-        portrait.setAttribute('width','250');
+        portrait.setAttribute('width','auto');
         portrait.setAttribute('height','80')
 
 

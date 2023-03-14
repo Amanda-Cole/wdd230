@@ -255,6 +255,7 @@
         color:#e8b127;
         padding-left: 5px;
         letter-spacing: .05em;
+        padding-top: 5px;
         }
     #visits{
         display: flex;
@@ -376,6 +377,7 @@
 }
 
 
+
 h1{
     text-align: center;
 }
@@ -395,14 +397,14 @@ main{
     margin-right: 20px;
 }
 
-.grid section{
+/* .grid section{
     flex-direction: column;
     border: solid black 1px;
     border-radius: 50px;
     background-color: cadetblue;
     text-align: center;
     padding: 10px
-}
+} */
 .grid .cards{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -421,12 +423,18 @@ main{
     grid-template-columns: 2fr 1fr 1fr;
     margin: 0;
 }
+.list section h1{
+    text-align: left;
+}
 .list img{
     display: none;
 }
 .list section:nth-child(odd){
     background-color: beige;
 }
+/* #directoryhome h1{
+    text-align: center;
+} */
 /* .directorybase{
     padding-top: 10px;
     font-family: 'Inter', sans-serif;
@@ -450,7 +458,10 @@ main{
     padding-bottom: 20px;
 }
 
-
+/* *******Join page******* */
+#details{
+    width: 282px;
+}
 
 
 

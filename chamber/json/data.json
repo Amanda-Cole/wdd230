@@ -2,69 +2,69 @@
     "members":
     [
         {
-            "name":"Baked Fresh",
-            "address":"9363 S Silvercrest Dr",
-            "phone":"801-875-1960",
+            "name":"Nothing Bundt Cakes",
+            "address":"10389 S State St",
+            "phone":"801-619-3757",
             "membership":"Silver",
-            "linkUrl":"www.bakedfresh.com",
-            "image":"images/DirectoryImages/bakedfreshlogo250.png"
+            "linkUrl":"https://www.nothingbundtcakes.com/",
+            "image":"images/nothingbundtcakes.webp"
         },
         {
-            "name":"Sandra's Yoga Studio",
-            "address":"1958 Tramway Dr",
-            "phone":"801-999-1880",
+            "name":"Centered City Yoga",
+            "address":"920 E 900 S",
+            "phone":"801-521-YOGA",
             "membership":"Gold",
-            "linkUrl":"www.stretchwithsandra.com",
-            "image":"images/DirectoryImages/sandrasyogalogo250.png"
+            "linkUrl":"https://www.centeredcityyoga.com/",
+            "image":"images/yoga.webp"
         },{
-            "name":"Kirk Smith, CPA",
-            "address":"1880 State Street",
-            "phone":"801-TAX-1040",
+            "name":"The Accounting Factor",
+            "address":"899 E 9400 S",
+            "phone":"801-561-3547",
             "membership":"Gold",
-            "linkUrl":"www.Kirkcpa.com",
-            "image":"images/DirectoryImages/kirkcpalogo250.png"
+            "linkUrl":"https://www.theaccountingfactor.tax/",
+            "image":"images/taf-logo.webp"
         },{
-            "name":"AJAX Bike Shop",
-            "address":"1300 E Main Street",
-            "phone":"801-550-1225",
+            "name":"SALTCYCLES",
+            "address":"2073 E 9400 S",
+            "phone":"801-943-8502",
             "membership":"Silver",
-            "linkUrl":"www.ridewithajax.com",
-            "image":"images/DirectoryImages/ajaxbikelogo250.png"
+            "linkUrl":"https://www.saltcycles.com/",
+            "image":"images/precisionbikefit.webp"
         },{
-            "name":"Laura G Salon",
-            "address":"3235 S Newcastle",
-            "phone":"801-665-7676",
+            "name":"Amber Renee Salon",
+            "address":"907 E 9400 S",
+            "phone":"801-569-2997",
             "membership":"Silver",
-            "linkUrl":"www.lauraGsalon.com",
-            "image":"images/DirectoryImages/laurasalonlogo250.png"
+            "linkUrl":"https://amberrenesalon.com/",
+            "image":"images/arsmall.webp"
         },{
-            "name":"Patti's Cafe",
-            "address":"3558 Haslett Rd",
-            "phone":"801-335-4565",
+            "name":"Black Bear Diner",
+            "address":"1966 E 9400 S",
+            "phone":"801-571-7026",
             "membership":"Gold",
-            "linkUrl":"www.pattiscafe.com",
-            "image":"images/DirectoryImages/pattiscafelogo250.png"
+            "linkUrl":"https://blackbeardiner.com/",
+            "image":"images/BBDsmall.webp"
         },{
-            "name":"Paul Wright Construction and Remodel",
+            "name":"Neerings Plumbing",
             "address":"1050 Oakcrest Drive",
-            "phone":"801-880-6342",
+            "phone":"801-997-5515",
             "membership":"Gold",
-            "linkUrl":"www.paulwrightconstruction.com",
-            "image":"images/DirectoryImages/paulconstructionlogo250.png"
+            "linkUrl":"https://call.neeringsplumbing.com/",
+            "image":"images/neeringslogo-1000x503.webp"
         },{
-            "name":"Eagle Tatoos",
-            "address":"8565 State Street",
-            "phone":"801-555-1060",
+            "name":"Aloha Tattoos",
+            "address":"6657 S State #4",
+            "phone":"801-702-8438",
             "membership":"Silver",
-            "linkUrl":"www.eagletatoos.com",
-            "image":"images/DirectoryImages/eagletatoologo250.png"
+            "linkUrl":"https://alohatattoos.net/",
+            "image":"images/Alohalogo.webp"
         },{
-            "name":"Star Concrete",
-            "address":"1658 Harvel Dr",
-            "phone":"801-325-1810",
+            "name":"Utah Home Fitness",
+            "address":"10875 State St",
+            "phone":"801-816-1900",
             "membership":"Silver",
-            "linkUrl":"www.starconcrete.com",
-            "image":"images/DirectoryImages/starconcretelogo250.png"
+            "linkUrl":"https://www.utahhomefitness.com/",
+            "image":"images/uthomefit.webp"
         }
 
     ]
